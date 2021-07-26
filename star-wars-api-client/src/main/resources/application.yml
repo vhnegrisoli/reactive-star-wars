@@ -1,0 +1,10 @@
+app-config:
+  client:
+    swapi:
+      base-uri: https://swapi.dev/api
+      people: ${app-config.client.swapi.base-ui}/people
+      planets: ${app-config.client.swapi.base-ui}/planets
+      films: ${app-config.client.swapi.base-ui}/films
+      species: ${app-config.client.swapi.base-ui}/species
+      vehicles: ${app-config.client.swapi.base-ui}/vehicles
+      starships: ${app-config.client.swapi.base-ui}/starships
